@@ -1,5 +1,5 @@
 def has_no_e(string):
-    if string.count('e') == 0:
+    if (string.count('e') == 0) and (string.count('E') == 0):
         return True
     else:
         return False
