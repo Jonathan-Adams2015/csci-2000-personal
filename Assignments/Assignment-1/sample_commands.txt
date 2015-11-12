@@ -1,0 +1,24 @@
+echo hello world
+Prints hello world to terminal
+
+echo {con,pre}{sent,fer}{s,ed}
+Prints every combination of bracket text to terminal
+
+date
+Prints current weekday, month, day, time of day, timezone and year
+
+whoami
+Prints user name
+
+cal 2000
+prints calender for year 2000
+
+cal 9 1752
+Prints September of 1752, howver days 3-13 are missing
+
+bc -l
+Opens calculator
+
+echo 5+4 | bc -l
+sends equation to calculator to be evaluated, then prints answer to terminal
+
