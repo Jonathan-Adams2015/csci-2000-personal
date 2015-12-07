@@ -12,6 +12,8 @@ In cfr_map.ipynb
     The csv file ended up with 'unknown' in the 4th coloumn, populated otherwise by numbers
     Instead of working within the code, I manually set the unknown value to 0 (Which I thought made sense)
     
+    In addition, when reading the data from the csv file, some of the lines aren't read in, and I have no idea why.
+    
     
 Notes on the assignment
 
@@ -19,4 +21,4 @@ Notes on the assignment
 This assignment was very time consuming! Working with the earthquake map was difficult because the example file wasn't commented well.
 I spent a bunch of time trying to understand why my points of data were behind the earth.
 
-The part of the assignment with the binary numbers is pretty much impossible to check if the data is being read incorrectly.
+With regards to the part of the assignment with the binary numbers, it is pretty much impossible to check if the data is being read incorrectly.
