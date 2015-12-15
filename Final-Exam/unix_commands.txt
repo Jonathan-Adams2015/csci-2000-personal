@@ -4,6 +4,7 @@
 # except the two header lines?
 # Enter the relevant Unix command(s) used below.
 
+ tail -130 classlist.csv
 
 
 
@@ -13,8 +14,9 @@
 # Enter the relevant Unix command(s) used below as well as the number
 # of students in the list.
 
-
-
+tail -130 classlist.csv | 
+Need a command that can compare the first column of data and check for
+ duplicates, and a way to count those unique names
 
 # part (c)
 # How would you sort the list by the second column (i.e., by
@@ -24,8 +26,10 @@
 # Enter the relevant Unix command(s) used below as well as the names
 # of the first and last students in the new list.
 
+ tail -130 classlist.csv | sort -t ',' -k 3b
 
-
+Alcazar Vergie
+Ziemba Lanie
 
 # part (d)
 # Construct a Unix pipeline involving these functions to determine
@@ -34,6 +38,7 @@
 # Enter the relevant name(s) and the Unix command(s) below.
 
 
+tail -130 classlist.csv | 
 
 
 # part (f) [BONUS]
